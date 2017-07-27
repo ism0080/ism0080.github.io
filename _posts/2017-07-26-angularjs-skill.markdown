@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "Angualr JS"
+title:  "Angular JS"
 date:   2017-07-26 21:35:00 +0000
 categories: jekyll update
 ---
-Using AngualrJS to: \\
+Using AngularJS to: \\
 "Write a program to read data from two files, calculate the linear regression and correlation coefficients for a set of n pairs of data" [(GitHub)][git-angular-calc]
 
 AND

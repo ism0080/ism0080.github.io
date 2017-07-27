@@ -4,7 +4,7 @@ title:  "HTML"
 date:   2017-07-26 21:35:00 +0000
 categories: jekyll update
 ---
-The [website][website] brief was:
+The [website]({{ site.url }}/HTML/great-art) brief was:
 >"You are required to build a website for your client, Hubert Humperdinck, who is an art collector with a vast collection he wishes to share with the world via the World Wide Web. Hubert has decided that you will create a website for one artist in his collection."
 
 It also needed to be responsive through the use of media queries so that any device could easily view the website.
@@ -19,5 +19,3 @@ It also needed to be responsive through the use of media queries so that any dev
 	}
 }
 {% endhighlight %}
-
-[website]: /HTML/great-art

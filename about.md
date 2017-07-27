@@ -3,5 +3,5 @@ layout: page
 title: About
 permalink: /about/
 ---
-[get the PDF]({{ site.url }}/docs/CV.pdf)
+[Check Out My CV]({{ site.url }}/docs/CV.pdf)
 =====================

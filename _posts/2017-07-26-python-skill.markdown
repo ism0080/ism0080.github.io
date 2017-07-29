@@ -4,7 +4,7 @@ title:  "Python"
 date:   2017-07-26 21:35:00 +0000
 categories: jekyll update
 ---
-**Assingment 1: Problem Domain Brief**
+**Assignment 1: Problem Domain Brief**
 >"Create a Python 3 program being able to read, store and display data in a given format in different ways by using Python package(s)."
 
 ![Assignment 1 Brief](/Python/assignment1.png){:class="img-responsive"}

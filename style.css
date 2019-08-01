@@ -101,4 +101,21 @@ article p{
   padding: 2em 8em;
 }
 
+/* MOBILE */
+@media screen and (max-width: 40em) {
+
+	.row {
+		display: block;
+	}
+
+	.column {
+		padding: 1em 1em;
+	}
+
+	article>* {
+		flex: 1 1 100%;
+	}
+
+}
+
 

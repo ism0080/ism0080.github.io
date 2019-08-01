@@ -1,23 +1,121 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-<div class="home">
+	<title>Isaac Mackle | Portfolio</title>
 
-  <h1 class="page-heading">Posts</h1>
+	<link rel="stylesheet" href="./style.css">
+	<link href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css" rel="stylesheet" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <nav>
+		<a href="index.html">ISAAC MACKLE</a>
+		<a href="projects.html">PROJECTS</a>
+    </nav>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+    		<div class="banner">
+				<div class="banner-txt">
+					<h1>ISAAC MACKLE</h1>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum libero lorem, ultricies ut commodo ac, laoreet a ante. Aliquam auctor ultrices ipsum tempor cursus. Praesent dapibus libero sed nibh laoreet ultricies. Vivamus eget feugiat velit. Maecenas at purus id turpis sollicitudin ultricies at sed augue. Quisque eu dolor a nibh placerat bibendum id in lorem. Curabitur id tellus iaculis, hendrerit justo in, dictum tortor. Phasellus eu semper metus. Integer eu leo eros. Ut blandit tempor metus non volutpat. Phasellus sollicitudin eget arcu eu consequat. Nulla eget imperdiet odio. Proin eleifend luctus enim, vitae iaculis magna lobortis vulputate. Donec et eleifend mi.
+					</p>
+					<button>Download CV</button>
+				</div><!-- /Banner-txt -->
+        	</div>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+	        	<div class="main">
+	        		<h1>Skills</h1>
+	        		<hr>
+	        		<article>
+	        			<p>
+	        				<i class="fa-4x devicon-html5-plain-wordmark icon"></i>
+	        				<i class="fa-4x devicon-css3-plain-wordmark icon"></i>
+                        	<i class="fa-4x devicon-bootstrap-plain-wordmark icon"></i>
+                        	<i class="fa-4x devicon-wordpress-plain icon"></i>
+                        	</br>
+	        				<b>HTML & CSS</b>
+	        				</br>
+	        				HTML and CSS in combination with bootstrap. I have also experimented with creating wordpress templates.
+	        			</p>
+	        			<p>
+	        				<i class="fa-4x bitIcon-js-sq icon"></i>
+                        	<i class="fa-4x devicon-angularjs-plain icon"></i>
+                        	</br>
+	        				<b>JavaScript</b>
+	        				</br>
+	        				JavaScript with AngularJS, as well as Jasmine, Mocha-Chai testing frameworks.
+	        			</p>
+	        			<p>
+	        				<i class="fa-4x devicon-php-plain icon"></i>
+	        				</br>
+	        				<b>PHP</b>
+	        				</br>
+	        				Using php to connect HTML / CSS / JavaScript front-ends to a MySQL back-end.
+	        			</p>
+	        			<p>
+	        				 <i class="fa-4x devicon-python-plain icon"></i>
+	        				 </br>
+	        				<b>Python</b>
+	        				</br>
+	        				Python and its myriad of libraries to create cmd-line applications.
+	        			</p>
+	        			<p>
+	        				<i class="fa-4x devicon-java-plain icon"></i>
+                        	<i class="fa-4x devicon-android-plain-wordmark icon"></i>
+                        	</br>
+	        				<b>Java</b>
+	        				</br>
+	        				Using Java on the Android platform to create applications and games.
+	        			</p>
+	        			<p>
+	        				<i class="fa-4x devicon-csharp-plain icon"></i>
+	        				<i class="fa-4x devicon-visualstudio-plain icon"></i>
+	        				</br>
+	        				<b>C#</b>
+	        				</br>
+	        				Using C# to create console applications, and WinForms to create applications and a puzzle game.
+	        			</p>
+	        			<p>
+	        				<i class="fa-4x devicon-mysql-plain icon"></i>
+	        				</br>
+	        				<b>MYSQL</b>
+	        				</br>
+	        				Using MySQL as a DBMS, covering complex queries, security and database design.
+	        			</p>
+	        			<p>
+	        				<i class="fa-4x devicon-amazonwebservices-plain-wordmark icon"></i>
+	        				</br>
+	        				<b>Cloud Computing</b>
+	        				</br>
+	        				Using AWS or Azure to host servers for applications/ websites.
+	        			</p>
+	        			<p>
+	        				<i class="fa-4x devicon-photoshop-plain icon"></i>
+	        				<i class="fa-4x devicon-illustrator-plain icon"></i>
+	        				</br>
+	        				<b>Art Design</b>
+	        				</br>
+	        				Using Adobe software: Lightroom, Photoshop, Illustrator etc. to create outcomes
+	        			</p>
+	        			<p>
+	        				<i class="fa-4x devicon-git-plain icon"></i>
+	        				</br>
+	        				<b>Version Control</b>
+	        				</br>
+	        				Using GIT to work on a project collaboratively 
+	        			</p>
+	        		</article>
+	        	</div>
 
-  <!-- <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p> -->
-
-</div>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"
+  			integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  			crossorigin="anonymous">
+  	</script>
+    <script type="text/javascript" src="main.js"></script>
+</body>
+</html>

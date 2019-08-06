@@ -12,19 +12,45 @@ body {
 }
 
 img {
-	width: 80%;
+	width: 100%;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 video {
 	width: 80%;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .smaller-vid {
 	width: 40%;
 }
+
+button {
+	background-color: #000; /* Green */
+	border: none;
+  	color: white;
+  	padding: 1em 2em;
+  	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+  	font-size: 1em;
+  	cursor: pointer;
+}
+
+button a:link,
+button a:visited {
+	text-decoration: none;
+	color: #000;
+	padding: 1em;
+}
+
+button:hover {
+	background-color: darkgrey;
+	color: #000;
+}
 /* Navigation */
 nav {
-	padding: 10px;
+	padding: 1em;
 	margin: 0 auto;
 	text-align: center;
 	position: fixed;
@@ -106,6 +132,38 @@ article p{
   text-align: center;
 }
 
+.column-3 {
+	flex: 50%;
+ 	padding: 2em 2em;
+ 	text-align: center;
+}
+
+/* FOOTER */
+footer {
+	padding: 1em 0;
+	text-align: center;
+	background-color: #ECECEC
+}
+
+footer p {
+	display: inline-block;
+	padding: 1em 5em;
+}
+
+footer a:link,
+footer a:visited {
+	text-decoration: none;
+	color: #000;
+}
+
+footer a:hover {
+	text-decoration: underline;
+}
+
+.hide {
+	display: none;
+}
+
 /* SMALLER SCREEN */
 @media screen and (max-width: 80em) {
 	.row {
@@ -137,6 +195,10 @@ article p{
 
 	article>* {
 		flex: 1 1 100%;
+	}
+
+	footer p {
+		display: block;
 	}
 
 }
